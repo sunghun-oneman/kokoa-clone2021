@@ -1,4 +1,5 @@
 .user-component {
+  margin-bottom: 10px;
   justify-content: space-between;
 }
 .user-component,
@@ -67,4 +68,7 @@ user-component__column-more {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.user-component__column img {
+  object-fit: fill;
 }
