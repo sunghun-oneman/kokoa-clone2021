@@ -1,4 +1,30 @@
-.status-bar {
-  display: flex;
-  justify-content: space-between;
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Dongle&family=Lobster&family=Mohave:ital@1&family=Open+Sans:wght@400;600&display=swap");
+@import url(reset.css);
+@import url(variables.css);
+
+/* Components */
+@import url(components/status-bar.css);
+@import url(components/nav-bar.css);
+@import url(components/screen-header.css);
+@import url(components/user-component.css);
+@import url(components/badge.css);
+@import url(components/point.css);
+@import url(components/icon-row.css);
+@import url(components/no-mobile.css);
+/* Screens */
+@import url(screens/login.css);
+@import url(screens/friends.css);
+@import url(screens/find.css);
+@import url(screens/more.css);
+@import url(screens/list.css);
+@import url(screens/alt-screen-header.css);
+@import url(screens/settings.css);
+@import url(screens/chat.css);
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #2e363e;
+}
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }

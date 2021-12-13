@@ -1,0 +1,34 @@
+.list__settings {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.list__settings-top {
+  padding-bottom: 20px;
+}
+.list__settings-top-column {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  border-bottom: var(--main-border);
+  padding-bottom: 40px;
+}
+.list__settings-top-column span {
+  font-size: 26px;
+  font-weight: 700;
+}
+.list_settings-icon {
+  margin-right: 15px;
+  font-size: 30px;
+}
+.list__settings-subtitle {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.list__settings-subtitle span {
+  display: block;
+}
+.list__settings-subtitle span:last-of-type {
+  opacity: 0.6;
+}

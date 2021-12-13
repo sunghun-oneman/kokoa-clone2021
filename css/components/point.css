@@ -1,0 +1,39 @@
+.more__point-parent {
+  position: relative;
+}
+.find__point {
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+  left: 93px;
+  bottom: 5px;
+}
+.more__point-setting {
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  left: 143px;
+  bottom: 5px;
+}
+.more__point-talk-drive {
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  left: 10px;
+  bottom: 5px;
+}
+.nav__point {
+  width: 7px;
+  height: 7px;
+  background-color: red;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  border-radius: 50%;
+}
